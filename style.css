@@ -1,0 +1,79 @@
+body {
+
+    background: linear-gradient(#00fffb 0%, #73ff00 100%);
+    background-repeat: no repeat;
+    text-align: center;
+}
+
+#gg {
+    border-radius: 100px;
+    width: 200px;
+    text-align: center;
+}
+
+p {
+    font-size: 25px
+}
+
+h1 {
+    text-shadow: 2px 2px #3c00ff;
+}
+
+#Introduction {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    z-index: 9px;
+}
+
+#bio {
+    background-color: white;
+    padding: 30px;
+    font-size: 18;
+}
+
+.links:hover {
+    background-color: pink;
+}
+
+.gr { 
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10px;
+    position: fixed;
+    display:flex;
+}
+
+#hol {
+    font-family: 'courgette', cursive;
+}
+
+.links {
+    float: left;
+    right: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display:inline;
+}
+
+
+
+img {
+    transition: transform .2s;
+    border: 10px #AAAAAA;
+}
+
+img:hover {
+    
+    transform: scale(0.8);
+}
+html {
+    scroll-behavior: smooth;
+}
+#picture {height: 400px;
+width:400px;}
+
+.name {display:inline;}
